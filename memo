@@ -1,0 +1,26 @@
+//
+ユーザー
+ebckdjtdsftjho
+:
+パスワード
+e19792bd52af605d3317f2fe3c41b8a01b827a548ba6edd626ce2ab21bbba430
+@
+ホスト
+ec2-52-202-146-43.compute-1.amazonaws.com
+:
+ポート
+5432
+/
+データベース
+d6o20kud8fd2a5
+
+heroku config:set DB_CONNECTION=pgsql -a motoshi-interview
+heroku config:set DB_DATABASE=d6o20kud8fd2a5 -a motoshi-interview
+heroku config:set DB_HOST=ec2-52-202-146-43.compute-1.amazonaws.com -a motoshi-interview
+heroku config:set DB_PASSWORD=e19792bd52af605d3317f2fe3c41b8a01b827a548ba6edd626ce2ab21bbba430 -a motoshi-interview
+heroku config:set DB_PORT=5432 -a motoshi-interview
+heroku config:set DB_USERNAME=ebckdjtdsftjho -a motoshi-interview
+
+APIキー
+base64:yPo8b1OHXjRdX3NhqEePxlO3rqhdsIMOOp0i7vzTu6Q=
+heroku config:set APP_KEY=base64:yPo8b1OHXjRdX3NhqEePxlO3rqhdsIMOOp0i7vzTu6Q= -a motoshi-interview
